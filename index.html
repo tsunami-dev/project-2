@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Game Shop</title>
+  </head>
+  <body>
+    <script src="./app.js" defer></script>
+    <header>
+      <nav>
+        <div>
+          <h1>Game clerk: Welcome please take a look at our vast selection </h1>
+          <img
+            src="https://img.freepik.com/premium-vector/gamepad-neon-sign-bright-signboard-light-banner-game-joystick-logo-neon-emblem-vector-illustration_191108-341.jpg?w=1380"
+            alt="Game Shop."
+          />
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <ul id="cart" class="games list"> 
+        <li class="games">
+          <img
+            src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2020/08/Def-Jam-Fight-For-NY-Main-Art.jpeg"/>
+          <h3 id="name">Games:</h3>
+          <p>def jam fight for ny</p>
+          <p2>Def Jam: Fight for NY is a hip hop-influenced action video game published by EA Games </p2>
+          <h3 id="price">Price:</h3>
+          <p>$80</p>
+          <button id ="remove">remove</button>
+          </li>
+        </br>
+          <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/5/5b/Left4Dead_Windows_cover.jpg"/>
+          <h3>Games:</h3>
+          <p id="name">Left 4 Dead</p>
+          <p> Left 4 Dead is a 2008 first-person shooter game developed by Valve South</p>
+          <h3>Price:</h3>
+          <p>$59.99</p>
+          <button id ="remove">remove</button>
+          </li>
+        </br>
+          <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/8/82/Gears_of_war_cover_art.jpg"
+          />
+          <h3>Games:</h3>
+          <p id ="name">Gears of War</p>
+          <p>Gears of War is a 2006 third-person shooter video game developed by Epic Games</p>
+          <h3>Price:</h3>
+          <p>$100</p>
+          <button id ="remove">remove</button>
+        </li>
+    </br>
+      </ul>
+      <form>
+        <!--h4>cart</h4>
+        <input type="text" id="Name" class="form-control" placeholder="Enter Games Name...">
+        <input type="number" id="price" class="form-control" placeholder="Enter Games Price...">
+        <button type="submit">Submit</button-->
+          <div>
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name"><br>
+              <label for="price">Price:</label><br>
+              <input type="text" id="price" name="price">
+              <input type="radio" value="In Stock"/>
+              <label>InStock</label>  
+            </div>
+            </br>
+            <input type="submit" value="submit"/>
+            <input type="reset" value="reset"/>
+
+        </form>
+    </div>
+    <footer>Game Shop, "your one stop spot for all things gaming!" </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
